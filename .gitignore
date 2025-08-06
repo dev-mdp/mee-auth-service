@@ -1,0 +1,4 @@
+#ignore .env file config
+src/config/.env
+/tmp
+.idea/
