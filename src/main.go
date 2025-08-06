@@ -13,5 +13,5 @@ func main() {
 	config.DB.AutoMigrate(&models.MasterRoles{})
 	config.DB.AutoMigrate(&models.MasterStatus{})
 
-	api.Routes()
+	api.APIRoutes()
 }

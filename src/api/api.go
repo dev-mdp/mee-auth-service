@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Routes() {
+func APIRoutes() {
 	setApi := gin.Default()
 
 	api := setApi.Group("/api/v1")
